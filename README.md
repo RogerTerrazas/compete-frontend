@@ -1,2 +1,2 @@
 # compete-frontend
-Front End for Compete.
+Front End for Compete
