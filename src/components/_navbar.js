@@ -35,7 +35,7 @@ class _navbar extends React.Component{
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink href="/calendar">Calendar</NavLink>
+                        <NavLink href="/schedule">Schedule</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="/scores">Scores</NavLink>

@@ -1,0 +1,73 @@
+html,body {
+    height:100%;
+}
+.jumbotron{
+    margin: 0;
+}
+
+.footer{
+    background-color: #243E36;
+    color: white;
+    padding: 2rem;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer .tagline{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.footer .copyright{
+    font-weight: lighter;
+}
+
+.about-us{
+    background-color: #7CA982;
+    padding: 2rem;
+}
+
+.about-us h2{
+    color: white;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about-us .profiles{
+    background: #E0EEC6;
+    overflow-x: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us .profiles .profile{
+    margin: 1rem;
+    text-align: center;
+}
+
+.about-us .profiles .profile p{
+    margin: 0;
+}
+
+.about-us .profiles .profile .pic{
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    background: grey;
+}
+
+.announcements{
+    background-color:#E0EEC6;
+    padding: 2rem;
+}
+
+.announcements .announcement{
+    color: white;
+    padding: 2rem;
+    margin: 0.5rem;
+    height: 100%;
+}
