@@ -26,7 +26,6 @@ class home extends React.Component{
 				</Jumbotron>
 				<Announcements/>
 				<_carousel/>
-				
 				<AboutUs/>
 				<Footer/>
 			</div>
