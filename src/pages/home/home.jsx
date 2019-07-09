@@ -125,12 +125,14 @@ class Images extends React.Component{
 	}
 	render(){
 		return(
-			<div class='row container'>
+			<div class='row'>
 				<div class='col'>
 					<_carousel photos={this.state.photos}/>
 				</div>
 				<div class='col'>
-					<h3 style={{margin:"auto"}}>{this.state.title}</h3>
+					<div style={{position:'relative', float:'left', top:'50%', left:'50%', transform:'translate(-50%,-50%)'}}>
+						<h3>{this.state.title}</h3>
+					</div>
 				</div>
 			</div>
 		)
