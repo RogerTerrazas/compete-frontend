@@ -186,7 +186,7 @@ Profile.defaultProps={
 	title: 'Director'
 }
 
-class Footer extends React.Component{
+export class Footer extends React.Component{
 	render(){
 		return(
 			<div class='footer'>

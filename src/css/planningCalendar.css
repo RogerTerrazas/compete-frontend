@@ -1,0 +1,16 @@
+.planning-calendar{
+    align-items: center;
+}
+
+.planning-calendar .header{
+    padding: 2rem;
+    text-align: center;
+}
+
+.planning-calendar .header p{
+    font-weight: lighter;
+}
+
+.planning-calendar .calendar{
+    text-align: center;
+}

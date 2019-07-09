@@ -12,6 +12,7 @@ import links from './pages/links/links';
 import quest from './pages/quest/quest';
 import schedule from './pages/schedule/schedule';
 import scores from './pages/scores/scores';
+import planningCalendar from './pages/planningCalendar/planningCalendar';
 
 
 
@@ -27,6 +28,7 @@ ReactDOM.render(
 			<Route exact path="/quest" component={quest} />
 			<Route exact path="/schedule" component={schedule} />
 			<Route exact path="/scores" component={scores} />
+			<Route exact path="/planningcalendar" component={planningCalendar} />
 		</Switch>
 	</Router>,
 	document.getElementById("root")
