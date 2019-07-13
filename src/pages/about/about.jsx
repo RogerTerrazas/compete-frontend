@@ -52,7 +52,7 @@ class AboutUs extends React.Component{
 class HostingEvents extends React.Component{
 	render(){
 		return(
-			<Container className='hosting-events' fluid>
+			<Container className='quest-links' fluid>
 				<Row>
 					<Col xs="12"  className='col-wrapper'>
 						<Row>
