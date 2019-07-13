@@ -4,6 +4,9 @@ import { Jumbotron, Button, Container } from 'reactstrap';
 import _carousel from '../../components/_carousel';
 import '../../css/home.css';
 import Link from '@material-ui/core/Link';
+import Flickr from 'flickr-sdk';
+import flickerConf from '../../configurations/flickr.json'
+
 
 class home extends React.Component{
 	constructor(props){
@@ -25,7 +28,7 @@ class home extends React.Component{
 					</Container>
 				</Jumbotron>
 				<Announcements/>
-				<_carousel/>
+				<Images/>
 				
 				<AboutUs/>
 				<Footer/>
@@ -86,6 +89,55 @@ class Announcements extends React.Component{
 	}
 }
 
+class Images extends React.Component{
+	constructor(props){
+		super(props);
+		this.state={
+			photos: [],
+			title:null,
+		}
+	}
+	loadFlickrPhotos(){
+		const flickr = new Flickr(flickerConf.key);
+		var eweek2019PhotosetId = "72157705556328391";
+		var user_id = "88170019@N08";
+		var extras = "url_sq, url_t, url_s, url_m, url_o"
+		flickr.photosets.getPhotos({
+		  photoset_id : eweek2019PhotosetId,
+		  user_id: user_id,
+		  extras: extras
+		})
+		.then (res =>{
+		  var photos = res.body.photoset.photo;
+		  var title = res.body.photoset.title;
+		  this.setState({
+			photos: photos,
+			title: title,
+		  })
+		})
+		.catch(error =>{
+		  console.log(error)
+		})
+	}
+
+	componentDidMount(){
+		this.loadFlickrPhotos();
+	}
+	render(){
+		return(
+			<div class='row'>
+				<div class='col'>
+					<_carousel photos={this.state.photos}/>
+				</div>
+				<div class='col'>
+					<div style={{position:'relative', float:'left', top:'50%', left:'50%', transform:'translate(-50%,-50%)'}}>
+						<h3>{this.state.title}</h3>
+					</div>
+				</div>
+			</div>
+		)
+	}
+}
 class AboutUs extends React.Component{
 	render(){
 		return(
@@ -134,7 +186,7 @@ Profile.defaultProps={
 	title: 'Director'
 }
 
-class Footer extends React.Component{
+export class Footer extends React.Component{
 	render(){
 		return(
 			<div class='footer'>
