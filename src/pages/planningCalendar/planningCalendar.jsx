@@ -7,7 +7,6 @@ class planningCalendar extends React.Component{
     render(){
         return(
             <div className='planning-calendar'>
-                <_navbar/>
                 <div className='container'>
                     <div className='header'>
                         <h1>Planning Calendar</h1>
@@ -17,7 +16,6 @@ class planningCalendar extends React.Component{
                         <iframe src="https://calendar.google.com/calendar/selfsched?sstoken=UU92cHVMWW1UMDM4fGRlZmF1bHR8NmQyZGQ3ODMwZmIxZjlhZGFhOTZhOTI3ODcwNTBmODI" style={{width:'100%', height:'100vh'}}></iframe>
                     </div>
                 </div>
-                <Footer/>
             </div>
         )
     }

@@ -7,12 +7,10 @@ class about extends React.Component {
 	render() {
 		return (
 			<div>
-				<_navbar/>
 				<AboutUs/>
 				<HostingEvents/>
 				<Quest/>
 				<SpecialEvents/>
-				<Footer/>
 			</div>
 		);
 	}

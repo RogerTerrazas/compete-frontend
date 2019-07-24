@@ -19,7 +19,6 @@ class home extends React.Component{
 	render(){
 		return (
 			<div>
-				<_navbar/>
 				<Jumbotron fluid>
 					<Container fluid>
 						<h1 className="display-3">Welcome to E-Week!</h1>
@@ -31,7 +30,6 @@ class home extends React.Component{
 				<Images/>
 				
 				<AboutUs/>
-				<Footer/>
 			</div>
 		);
 	}
