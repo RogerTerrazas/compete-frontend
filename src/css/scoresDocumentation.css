@@ -1,0 +1,29 @@
+.scoresDocumentation{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.scoresDocumentation .date{
+    font-style: italic;
+}
+
+.scoresDocumentation .content{
+    height: 50vh;
+}
+
+.Sidebar{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.Sidebar .button, .Sidebar .button:active{
+    width: 100%;
+    text-transform: none;
+    outline: none;
+}
+
+
+.Sidebar .selected-button, .Sidebar .selected-button:hover{
+    background-color: pink;
+}
