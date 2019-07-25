@@ -11,9 +11,21 @@ class scoresDocumentation extends React.Component{
                     <div className='header'>
                         <h1>Scoring Documentation</h1>
                         <p>February 15 - 23, 2019</p>
+                        <p style={{fontWeight:'bold', textDecoration:'underline', fontStyle:'italic'}}>DISCLAIMER: Points will be determined and awarded at SEC’s discretion.</p>
                     </div>
                     <div className='content'>
                         <DocumentationCategories/>
+                    </div>
+                    <div className='content' style={{backgroundColor: "#FFBABA"}}>
+                        <h3>Losing Points</h3>
+                        <p>Ways to lose points include, but not limited to, the following:</p>
+                        <ul>
+                            <li>An organization fails to properly take charge of the event that they host (at the discretion of the judging MALs)</li>
+                            <li>Falsifying sign-ins/outs</li>
+                            <li>Late submission of room reservation and rules for hosted events</li>
+                            <li>Ramshorn contestants not attending a workshop and the dress rehearsal</li>
+                            <li>Cheating, including breaking rules of a specific event hosted by a team (at the discretion of judging MALs)</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -66,7 +78,7 @@ class DocumentationCategories extends React.Component{
         var notes = content.details.Notes.split("\n");
         var cleanedUpNotes = [];
         notes.forEach(note =>{
-            cleanedUpNotes.push(<p>{note}</p>)
+            cleanedUpNotes.push(<p style={{"margin":0}}>{note}</p>)
         })
 
         return(
@@ -74,7 +86,11 @@ class DocumentationCategories extends React.Component{
                 <h3>{content.name}</h3>
                 <div>
                     {this.renderDetails(content.details)}
-                    {cleanedUpNotes}
+
+                    <div style={{"marginTop": "1rem"}}>
+                        {cleanedUpNotes}
+                        {content.details.Link && <p>For more information: <a href={content.details.Link}>{content.details.Link}</a> </p>}
+                    </div>
                 </div>
             </div>
         )
@@ -89,7 +105,7 @@ class DocumentationCategories extends React.Component{
     render(){
         return(
             <div className='row DocumentationCategories'>
-                <div className='col-3'>
+                <div className='col--lg-3'>
                     <Sidebar categories={this.state.categoriesName} selectCategory={this.changeSelected} selected={this.state.selected.name}/>
                 </div>
                 <div className='col'>
