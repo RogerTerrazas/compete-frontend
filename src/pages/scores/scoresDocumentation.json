@@ -1,0 +1,97 @@
+{"content" :
+    [
+        {
+            "name": "Hosting an Event",
+            "details": {
+                "Max_Score": "120 Points",
+                "Link" : "https://tinyurl.com/EWeekJudgingRubric2019",
+                "Notes": "Hosting team can also receive attendance points (1 point for sign in AND sign out at the end of the event) but cannot participate in event. "
+            }
+        }, 
+        { 
+            "name":"Participating in an Event",
+            "details":{
+                "scoring":{
+                    "First_Place": "100 Points",
+                    "Second_Place": "75 Points",
+                    "Third_Place" : "55 Points",
+                    "Fourth_Place" : "40 Points",
+                    "Fifth_Place": "30 Points",
+                    "Sixth_Place_and_More": "15 Points"
+                },
+                "Notes":"In order to receive placement points, the team must participate, not just attend the event.\nAll teams can receive attendance points (1 point for sign in AND sign out at the end of the event)."
+            }
+        }, 
+        { 
+            "name":"E-Week Quest 2019",
+            "details":{
+                "Max_Score": "500 Points",
+                "Notes": "Quest points will be awarded based on completion of Quest List items.\nQuest point values associated with each item are listed on the Quest List. The final number of E-Week points awarded will be the sum of Quest points earned scaled down by a fixed constant.\n***1 Quest point does not equal 1 E-Week Point!***"
+            }
+        },
+        { 
+            "name": "Coin Wars",
+            "details":{
+                "scoring":{
+                    "First_Place": "150 Points",
+                    "Second_Place": "115 Points",
+                    "Third_Place" : "85 Points",
+                    "Fourth_Place" : "60 Points",
+                    "Fifth_Place": "40 Points",
+                    "Sixth_Place_and_More": "25 Points"
+                },
+                "Notes":"Change = Positive points equivalent to cent value (Eg. Quarter = +25 pts.)\nBills = Negative points equivalent to cent value (Eg. Dollar = -100 pts.)"
+            }
+        }, 
+        { 
+            "name":"Engineering Day of Service",
+            "details":{
+                "Date": "Sat. Feb 16th",
+                "Notes": "Attendance points will be counted as 2 points per sign in at Service Day Kickoff."
+            }
+        }, 
+        { 
+            "name":"Inform and Inspire",
+            "details":{
+                "Date": "Mon. Feb 18th",
+                "Notes": "Points assigned based on performance at event using the rubric.\nEach Inform and Inspire Point earned at the event will count for 1 E-Week Point.\nRefer to Rubric: https://tinyurl.com/informinspire "
+            }
+        }, 
+        { 
+            "name":"Dr.Ramshorn Pageant",
+            "details":{
+                "scoring":{
+                    "First_Place": "130 Points",
+                    "Second_Place": "100 Points",
+                    "Third_Place" : "75 Points",
+                    "Participation" : "50 Points",
+                    "Crowd_Favorite": "30 Points",
+                    "Best_Costume": "25 Points",
+                    "Best Talent": "25 Points",
+                    "Most Creative Act": "25 Points",
+                    "Mr(s)._Congeniality": "25 Points"
+                },
+                "Notes":"Intermission Audience Participation - 10 Points/question (at most 30 per team)\nAttendance - 1 point for sign in AND sign out at the end of the event."
+            }
+        }, 
+        { 
+            "name":"Girl Day",
+            "details":{
+                "Date": "Sat. Feb 23rd",
+                "Notes": "Each team that participates in Girl Day (sign up through WEP) will receive 100 E-Week Points."
+            }
+        },
+        { 
+            "name": "HCFD Scoring",
+            "details":{
+                "scoring":{
+                    "First_Place": "100 Points",
+                    "Second_Place":"75 Points",
+                    "Third_Place":"50 Points",
+                    "Fourth_Place_and_More":"10 Points"
+                },
+                "Notes":"There are separate placements for large and small orgs (i.e. two 1st places)"
+            }
+        }
+    ]
+}

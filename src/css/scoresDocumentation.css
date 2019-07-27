@@ -1,0 +1,40 @@
+.scoresDocumentation{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.scoresDocumentation .date{
+    font-style: italic;
+}
+
+.scoresDocumentation .header{
+    text-align: center;
+}
+.scoresDocumentation .content{
+    margin-top: 3rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+}
+
+.Sidebar{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+}
+
+.Sidebar .button, .Sidebar .button:active{
+    width: 100%;
+    text-transform: none;
+    outline: none;
+    border-right: 5px solid transparent;
+    border-radius: none;
+}
+
+
+.Sidebar .selected-button, .Sidebar .selected-button:hover{
+    border-right: 5px solid green !important;
+}
