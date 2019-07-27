@@ -13,7 +13,7 @@ class schedule extends React.Component{
 						<p></p>
 					</div>
 					<div className='calendar'>
-						<iframe src="https://calendar.google.com/calendar/embed?src=roger.terrazas%40utexas.edu&ctz=America%2FChicago" style={{width:'100%', height:'100vh'}}/>
+						<iframe src="https://calendar.google.com/calendar/embed?src=eweek%40sec.engr.utexas.edu&ctz=America%2FChicago" style={{width:'100%', height:'100vh'}}/>
 					</div>
 				</div>
 			</div>
