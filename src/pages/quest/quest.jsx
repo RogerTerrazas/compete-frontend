@@ -9,10 +9,10 @@ class about extends React.Component {
 	render() {
 		return (
 			<div>
-				<_navbar/>
+
 				<AboutQuest/>
 				<QuestLinks/>
-				<Footer/>
+
 			</div>
 		);
 	}
