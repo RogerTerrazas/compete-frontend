@@ -1,4 +1,3 @@
-/* Elements */
 html,body {
     height:100%;
     width: 100%;
@@ -11,38 +10,55 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+.quest-button {
+    padding: 2%;
+    margin-bottom: 1.5%;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.button-wrapper {
+    padding-left: 25%; ;
+    padding-right: 25%;
+    margin-bottom: 1.5%;
+}
 /* wrappers */
 .col-wrapper{
     padding: 1.5%;
+    align-content: center;
+    text-align: center;
 }
 
 .wrapper{
     padding: 2%;
     height: 100%;
+
 }
 
 /* Section Specific */
 /* About Section */
-.about-us{
+.about-quest{
     background-color: #E0EEC6;
     padding: 2rem;
 }
 
-.about-us h1{
+.about-quest h1{
     color: black;
     letter-spacing: 0.05em;
     text-align: center;
     margin-bottom: 2rem;
 }
 
-.about-us h3{
+.about-quest h3{
     color: black;
     letter-spacing: 0.05em;
     text-align: center;
     margin-bottom: 2rem;
 }
 
-.about-us p{
+.about-quest p{
     color: black;
     text-align: center;
 }
@@ -69,46 +85,4 @@ img {
 .quest-links p{
     color: black;
     text-align: center;
-}
-
-/* Quest Explain Section*/
-
-.quest {
-    background-color: #E0EEC6;
-    padding: 2rem;
-}
-
-.quest .col-wrapper {
-    margin: auto;
-    text-align: center;
-}
-
-.quest h2 {
-    color: black;
-    letter-spacing: 0.05em;
-    text-align: center;
-}
-
-.quest p {
-    text-align: left;
-}
-
-/* Special Events Section*/
-.special-events{
-    background-color: #F1F7ED;
-    padding: 2rem;
-}
-.special-events .col-wrapper {
-    margin: auto;
-    text-align: center;
-}
-
-.special-events h2 {
-    color: black;
-    letter-spacing: 0.05em;
-    text-align: center;
-}
-
-.special-events p {
-    text-align: left;
 }
