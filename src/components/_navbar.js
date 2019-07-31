@@ -47,7 +47,7 @@ class _navbar extends React.Component{
                     <UncontrolledDropdown nav inNavbar>
                         <DropdownToggle nav caret>Forms</DropdownToggle>
                         <DropdownMenu right>
-                            <DropdownItem>Attendance</DropdownItem>
+                            <DropdownItem href="/forms/attendance">Attendance</DropdownItem>
                             <DropdownItem>Judging</DropdownItem>
                             <DropdownItem>Feedback</DropdownItem>
                         </DropdownMenu>
