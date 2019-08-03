@@ -16,6 +16,8 @@ import planningCalendar from './pages/planningCalendar/planningCalendar';
 import _navbar from './components/_navbar';
 import scoresDocumentation from './pages/scores/scoresDocumentation';
 import attendanceForm from "./pages/forms/attendanceForm";
+import placementForm from "./pages/forms/placementForm";
+import complaintForm from "./pages/forms/complaintForm";
 
 
 var hist = createBrowserHistory();
@@ -34,6 +36,8 @@ ReactDOM.render(
 			<Route exact path="/planningcalendar" component={planningCalendar} />
 			<Route exact path="/scores/documentation" component={scoresDocumentation}/>
 			<Route exact path="/forms/attendance" component={attendanceForm}/>
+			<Route exact path="/forms/placement" component={placementForm}/>
+			<Route exact path="/forms/complaint" component={complaintForm}/>
 		</Switch>
 		<Footer/>
 	</Router>,
