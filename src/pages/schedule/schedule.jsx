@@ -1,6 +1,5 @@
 import React from "react";
 import _navbar from "../../components/_navbar";
-import { Footer } from "../home/home";
 import '../../css/planningCalendar.css';
 
 class schedule extends React.Component{
