@@ -105,7 +105,7 @@ class DocumentationCategories extends React.Component{
     render(){
         return(
             <div className='row DocumentationCategories'>
-                <div className='col--lg-3'>
+                <div className='col-lg-3 col-md-4'>
                     <Sidebar categories={this.state.categoriesName} selectCategory={this.changeSelected} selected={this.state.selected.name}/>
                 </div>
                 <div className='col'>
