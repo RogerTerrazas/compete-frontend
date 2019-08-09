@@ -38,7 +38,7 @@ class _navbar extends React.Component{
                         <DropdownToggle nav caret>Schedule</DropdownToggle>
                         <DropdownMenu right>
                             <DropdownItem href='/schedule'>Event</DropdownItem>
-                            <DropdownItem href="/planningcalendar">Planning</DropdownItem>
+                            <DropdownItem href="/schedule/planning">Planning</DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
                     <NavItem>

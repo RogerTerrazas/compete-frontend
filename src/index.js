@@ -33,7 +33,7 @@ ReactDOM.render(
 			<Route exact path="/quest" component={quest} />
 			<Route exact path="/schedule" component={schedule} />
 			<Route exact path="/scores" component={scores} />
-			<Route exact path="/planningcalendar" component={planningCalendar} />
+			<Route exact path="/schedule/planning" component={planningCalendar} />
 			<Route exact path="/scores/documentation" component={scoresDocumentation}/>
 			<Route exact path="/forms/attendance" component={attendanceForm}/>
 			<Route exact path="/forms/placement" component={placementForm}/>
